@@ -98,3 +98,11 @@ Apply visibility/fog of war or room concepts.
 - Ensure the game is intuitive, fun, and makes sense in the given setup.
 - Progress difficulty gradually.
 - Include a feeling of progression in difficulty, introducing some randomness.
+  
+## 🔗 Useful Links
+
+[![Static Badge](https://img.shields.io/badge/Faculty_of_Mathematics_and_Computer_Science-blue?style=for-the-badge&link=https%3A%2F%2Ffmi.unibuc.ro%2F)](https://fmi.unibuc.ro)
+
+[![Static Badge](https://img.shields.io/badge/Unibuc_Robotics-blue?style=for-the-badge&logo=facebook&color=%23d3d3d3&link=https%3A%2F%2Fwww.facebook.com%2Funibuc.robotics)](https://www.facebook.com/unibuc.robotics)
+
+[![Static Badge](https://img.shields.io/badge/unibuc.robotics-blue?style=for-the-badge&logo=instagram&color=pink&link=https%3A%2F%2Fwww.instagram.com%2Funibuc.robotics%2F)](https://www.instagram.com/unibuc.robotics)
