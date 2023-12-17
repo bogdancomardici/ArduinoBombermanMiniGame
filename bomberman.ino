@@ -1,17 +1,21 @@
 /*
     Mini Matrix Game (Bomberman)
 
-    The classic bomberman game is simulated on the 8x8 matrix.
-    Various stats and game information are shown on a LCD Display (player status, welcome and
-    end game messages, number of lives left, etc...)
-    The game has 3 types of elements:  player (blinks slowly), bombs (blinks fast), wall (doesn’t blink).
-    A random map is generated each time the game starts. The player moves around using a
-    joystick and places bombs that destroy the walls in a plus pattern (like the original bomberman game).
-    Every game is timed and the score is calculated by how fast the player destroys all the walls,
-    the player has 3 lives that he can lose when positioned in the blast radius of a bomb when detonating.
-    The game has an interactive menu with a different sections such as: about - details about the game and it's 
-    creator), settings (change lcd brightness, matrix brightness, etc...).
-    Sound effects such as the bomb timer are provided by a buzzer.
+    information, including player status, welcome and end game messages, and the number of lives remaining.
+    The game comprises three elements: players (blinking slowly), bombs (blinking rapidly), and walls (non-blinking).
+    A randomly generated map, with destructible walls (unbreakable borders), is created each time the game starts.
+    Players navigate using a joystick, placing bombs that destroy walls in a plus pattern. The objective is to demolish
+    as many walls as possible without succumbing to the blast. The game is timed, and the score is determined by
+    the number of walls destroyed. Players have a set number of lives, which can be lost if caught in a bomb's blast
+    radius during detonation. The logical game matrix is 16x16, but only an 8x8 portion is displayed, utilizing the
+    fog of war concept. At the end of the game, the final score is showcased, and players are prompted if they have beaten
+    the highscore. Each player can choose a three-character name, saved in the leaderboard along with their score.
+    Highscores can be reset, setting all scores to 0 and player names to XXX. The game includes informative sections about
+    the game and its creator, as well as a guide on how to play. Players can select from three difficulty levels (low, medium, high),
+    affecting gameplay elements such as the number of lives, bomb explosion speed, map density, and points awarded for each destroyed wall.
+    The game also features a settings menu, allowing players to adjust the LCD and matrix brightness, toggle sound on/off, and change their name.
+    Sounds are played when navigating the menu, placing bombs, and detonating them. The game is controlled using a joystick, and the
+    LCD contrast can be adjusted using a potentiometer.
 
 
     The circuit:
@@ -37,6 +41,10 @@
       2.3. Sounds - ON / OFF
       2.4. Player Name
     3. About
+    4. Highscores
+    5. Reset Highscores
+    6. How to play
+    7. Difficulty
 
     Created 24.11.2023
     By Comardici Marian Bogdan
