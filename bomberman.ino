@@ -1,7 +1,8 @@
 /*
     Mini Matrix Game (Bomberman)
 
-    information, including player status, welcome and end game messages, and the number of lives remaining.
+    The classic Bomberman game is emulated on an 8x8 matrix, featuring an LCD Display that displays various game information,
+    including player status, welcome and end game messages, and the number of lives remaining.
     The game comprises three elements: players (blinking slowly), bombs (blinking rapidly), and walls (non-blinking).
     A randomly generated map, with destructible walls (unbreakable borders), is created each time the game starts.
     Players navigate using a joystick, placing bombs that destroy walls in a plus pattern. The objective is to demolish
@@ -16,7 +17,6 @@
     The game also features a settings menu, allowing players to adjust the LCD and matrix brightness, toggle sound on/off, and change their name.
     Sounds are played when navigating the menu, placing bombs, and detonating them. The game is controlled using a joystick, and the
     LCD contrast can be adjusted using a potentiometer.
-
 
     The circuit:
 
