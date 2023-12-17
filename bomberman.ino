@@ -31,7 +31,8 @@
         1 x 10K resitor for the ISET pin on the matrix driver
         1 x LCD Display for displaying various info - pins 3, 4, 5, 6, 7, 8, 9
         1 x 50K Resistors to adjust LCD Contrast
-
+        1 X Buzzer for sound - pin 2
+        
     Menu structure:
 
     1. Start game
