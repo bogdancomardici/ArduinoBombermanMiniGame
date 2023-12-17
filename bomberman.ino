@@ -832,6 +832,10 @@ void printGameStats(byte noLives, unsigned long playTime) {
   lcd.write("Time: ");
   char playTimeChar[4];
   lcd.write(itoa(playTime, playTimeChar, 10));
+  lcd.setCursor(13, 1);
+  for (byte i = 0; i < 3; i++) {
+    lcd.write(playerName[i]);
+  }
 }
 
 bool playerDead() {
