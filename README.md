@@ -2,6 +2,10 @@
 
 ## Description
 
+<p align = center>
+  <img src="ArduinoBombermanMiniGame/bomberman.jpeg" width = 50%>
+</p>
+
 The classic Bomberman game is emulated on an 8x8 matrix, featuring an LCD Display that displays various game information,
 including player status, welcome and end game messages, and the number of lives remaining.
 The game comprises three elements: players (blinking slowly), bombs (blinking rapidly), and walls (non-blinking).
